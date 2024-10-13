@@ -46,7 +46,7 @@ Computer scientists are problem-solvers who apply computational thinking and alg
 
 By creating tools like the dashboard, we help organizations access and interact with their data more efficiently. For Grazioso Salvare, this could mean making quicker and more informed decisions about animal rescue operations.
 Automation: We automate repetitive tasks like searching for animals in a large dataset, which saves time and reduces errors.
-**Impact on Companies like Grazioso Salvare:**
+### **Impact on Companies like Grazioso Salvare:**
 
 Better Resource Management: Having a dashboard that can instantly retrieve and display animal data helps the organization make informed decisions about resource allocation (e.g., which animals need attention).
 Scalability: As the organization grows, the dashboard can be adapted to include more datasets or more complex queries, allowing the company to scale its operations without losing efficiency.
