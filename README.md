@@ -1,5 +1,5 @@
 # CS-340-13393-M01-Client-Server-Development-2024
-**1. Writing Maintainable, Readable, and Adaptable Programs:**
+## **1. Writing Maintainable, Readable, and Adaptable Programs:**
 Writing maintainable, readable, and adaptable code is essential for long-term project success. Here are the principles I followed, especially considering the CRUD Python module from Project One:
 
 Modularization: I broke down the functionality into smaller, manageable components. For example, in the CRUD module, each operation (Create, Read, Update, Delete) was encapsulated in a separate method. This made the code more understandable and easier to debug.
@@ -12,14 +12,15 @@ Error Handling: By handling exceptions, especially in database connections and q
 
 Reusability: The CRUD module was built as a reusable component. For example, I used the same module in Project Two to connect the dashboard widgets to the database. By separating the logic for database operations from the dashboard logic, I made the code adaptable. If a different database or use case arises in the future, I can reuse the CRUD module with minimal modifications.
 
-**Advantages:**
+### **Advantages:**
 
 Efficiency: Reusing the CRUD module in Project Two saved time since I didn’t have to rewrite database interaction code.
 Consistency: The logic remains the same across projects, reducing the risk of inconsistencies or bugs.
-**Future Use:**
+### **Future Use:**
 
 The CRUD module can be reused in any future project that involves database operations. If a future project uses a different type of data (for example, an e-commerce site with products), I would just need to change the database collection name and query structure, but the CRUD functions would remain largely the same.
-**2. Approach to Problem-Solving as a Computer Scientist:**
+
+## **2. Approach to Problem-Solving as a Computer Scientist:**
 Approaching problems as a computer scientist involves systematic thinking and problem decomposition. Here’s how I tackled the database and dashboard requirements for Grazioso Salvare:
 
 Understanding Requirements: I started by analyzing the client’s requirements for the dashboard and database interactions. This involved breaking down the problem into specific tasks—like user authentication, retrieving data, and displaying it in a readable format.
@@ -30,18 +31,18 @@ Prototyping and Iteration: For the dashboard, I started with a simple prototype 
 
 Testing and Debugging: Throughout the process, I used small test queries and debug statements to ensure that each part of the code was functioning before moving on to the next. For instance, I tested the MongoDB connection separately before integrating it into the dashboard.
 
-**Comparison with Previous Projects:**
+### **Comparison with Previous Projects:**
 
 In previous assignments, I may have focused more on the functionality and correctness of the code, but in this project, I also had to consider user interaction, database performance, and security.
 I also had to think about scalability—how this dashboard might be adapted for future requests, such as adding more data or users.
-**Techniques for Future Projects:**
+### **Techniques for Future Projects:**
 
 Database Indexing: To ensure efficient querying as data grows, I would consider indexing fields (e.g., animal_type).
 Separation of Concerns: I would continue separating business logic (CRUD operations) from the user interface (dashboard), so both parts can be adapted independently in future projects.
-**3. The Role of Computer Scientists and Why It Matters:**
+## **3. The Role of Computer Scientists and Why It Matters:**
 Computer scientists are problem-solvers who apply computational thinking and algorithms to address real-world challenges. In this project, I acted as a bridge between data and decision-making—creating a tool (the dashboard) that allows Grazioso Salvare to efficiently retrieve and visualize data from the Austin Animal Center database.
 
-**Why It Matters:**
+### **Why It Matters:**
 
 By creating tools like the dashboard, we help organizations access and interact with their data more efficiently. For Grazioso Salvare, this could mean making quicker and more informed decisions about animal rescue operations.
 Automation: We automate repetitive tasks like searching for animals in a large dataset, which saves time and reduces errors.
